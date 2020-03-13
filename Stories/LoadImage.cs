@@ -14,18 +14,19 @@ using Image = System.Drawing.Image;
 
 namespace Stories
 {
-    class ImageViewModel
+    static class  LoadImage
     {
-        public List<byte[]> ByteLoad { get; set; }
-        public List<Image> ImageLoaadImage { get; set; }
-        public List<ImageSource> ImageLoad { get; set; }
-        MongoCrud db = new MongoCrud("MangoStories");
+        public static List<byte[]> ByteLoad { get; set; }
+        public static List<Image> ImageLoaadImage { get; set; }
+        public static List<ImageSource> ImageLoad { get; set; }
+        static MongoCrud db = new MongoCrud("MangoStories");
 
-        public ImageViewModel()
+     static    public List<ImageSource> LoadImageFromDataBase()
         {
+            
             //wczytuję obrazy z Bazy w formie tablicy bitow
-            var a = db.LoadRecords<MainWindow.SlowkaModel>("words");
-            ByteLoad = new List<byte[]>();
+            var a = db.LoadRecords<SlowkaModel>("words");
+              ByteLoad = new List<byte[]>();
             ImageLoaadImage = new List<Image>();
             //wyviąfam tablice bitów ze zmiennej
             foreach (var item in a)
@@ -77,23 +78,21 @@ namespace Stories
                 i++;
             }
 
-            i = 0;
-            int aktalny = 0;
-            foreach (var window in Application.Current.Windows)
-            {
-                if (window.GetType() == typeof(MainWindow))
-                {
-                  //  (window as MainWindow).BlueTeam.ItemsSource= bitmapArry[0];
-                }
-            }
+            return ImageLoad;
+            // i = 0;
+            // int aktalny = 0;
+            // foreach (var window in Application.Current.Windows)
+            // {
+            //     if (window.GetType() == typeof(MainWindow))
+            //     {
+            //       //  (window as MainWindow).BlueTeam.ItemsSource= bitmapArry[0];
+            //     }
+            // }
         }
 
-        public void GetNextSibling()
-        {
-
-        }
+       
         //zamienia tablice bitow na obrazy
-        public Image byteArrayToImage(byte[] byteArrayIn)
+        public static Image byteArrayToImage(byte[] byteArrayIn)
         {
             MemoryStream ms = new MemoryStream(byteArrayIn);
             Image returnImage = Image.FromStream(ms);

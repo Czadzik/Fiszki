@@ -12943,6 +12943,11 @@
             </summary>
             <typeparam name="TResult">The type of the result.</typeparam>
         </member>
+        <member name="P:MongoDB.Driver.Core.Operations.IRetryableWriteOperation`1.WriteConcern">
+            <summary>
+            Gets the write concern for the operation.
+            </summary>
+        </member>
         <member name="M:MongoDB.Driver.Core.Operations.IRetryableWriteOperation`1.ExecuteAttempt(MongoDB.Driver.Core.Operations.RetryableWriteContext,System.Int32,System.Nullable{System.Int64},System.Threading.CancellationToken)">
             <summary>
             Executes the first attempt.

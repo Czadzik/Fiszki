@@ -1,7 +1,6 @@
 ﻿namespace Stories
 {
-    public partial class MainWindow
-    {
+    
         public class SlowkaModel
         {
             
@@ -17,4 +16,3 @@
 
         }
     }
-}

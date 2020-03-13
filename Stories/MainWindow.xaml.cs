@@ -27,31 +27,14 @@ namespace Stories
         public MainWindow()
         {
             InitializeComponent();
-            string testAngName = "dwo";
-            string testPolName = "dwa";
-            string inneZnacz = "drugi";
-            Image obraz = Image.FromFile(@"C:\Users\Czadzik\Desktop\fff.png");
-            byte[] binaryContent = imageToByteArray(obraz);
+          TestAddingToBase.Test();
 
-
-           
-             DataContext=new ImageViewModel();
-             
-            MongoCrud db = new MongoCrud("MangoStories");
-         //  db.InsertRecord("words", new SlowkaModel {id=2 ,AngName = testAngName, PolName = testPolName, OtherAngMeaning = inneZnacz, obraz = binaryContent });
-            var a = db.LoadRecords<SlowkaModel>("words");
-            MessageBox.Show(a.Select(x=>x).Count().ToString());
-
-
-
+          List<ImageSource> ImageLoaded=new List<ImageSource>();
+          ImageLoaded = LoadImage.LoadImageFromDataBase();
+          ShowImageXML.Source = ImageLoaded.First();
 
         }
-        public byte[] imageToByteArray(System.Drawing.Image imageIn)
-        {
-            MemoryStream ms = new MemoryStream();
-            imageIn.Save(ms, System.Drawing.Imaging.ImageFormat.Gif);
-            return ms.ToArray();
-        }
+       
 
 
        

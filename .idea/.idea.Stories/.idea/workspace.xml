@@ -2,21 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8563f537-776b-4628-9588-1d447c5b8a0b" name="Default Changelist" comment="Test po czasie">
+      <change afterPath="$PROJECT_DIR$/Stories/ImageTo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stories/TestAddingToBase.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stories/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stories/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stories/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stories/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Stories/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Stories/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Stories/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Stories/v16/Server/sqlite3/storage.ide" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Stories/v16/Server/sqlite3/storage.ide-shm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Stories/v16/Server/sqlite3/storage.ide-wal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stories/ImageViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/ImageViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/ImageViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/LoadImage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/MainWindow.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/SlowkaModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/SlowkaModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/Stories.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/Stories.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/bin/Debug/MongoDB.Bson.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/bin/Debug/MongoDB.Bson.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/bin/Debug/MongoDB.Driver.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/bin/Debug/MongoDB.Driver.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/bin/Debug/MongoDB.Driver.Core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/bin/Debug/MongoDB.Driver.Core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/bin/Debug/MongoDB.Driver.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/bin/Debug/MongoDB.Driver.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/bin/Debug/Stories.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/bin/Debug/Stories.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/bin/Debug/Stories.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/bin/Debug/Stories.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/DesignTimeResolveAssemblyReferences.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/Stories.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/Stories.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/MainWindow.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/MainWindow.g.i.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/Stories.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/Stories.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/Stories.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/Stories.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/Stories.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/Stories.g.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/Stories.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/Stories.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/Stories_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/Stories_MarkupCompile.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/MongoDB.Bson.2.10.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/MongoDB.Bson.2.10.0/License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/MongoDB.Bson.2.10.0/MongoDB.Bson.2.10.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/MongoDB.Bson.2.10.0/lib/net452/MongoDB.Bson.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/MongoDB.Bson.2.10.0/lib/net452/MongoDB.Bson.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/MongoDB.Bson.2.10.0/lib/netstandard1.5/MongoDB.Bson.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/MongoDB.Bson.2.10.0/lib/netstandard1.5/MongoDB.Bson.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/MongoDB.Driver.2.10.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/MongoDB.Driver.2.10.0/License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/MongoDB.Driver.2.10.0/MongoDB.Driver.2.10.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/MongoDB.Driver.2.10.0/lib/net452/MongoDB.Driver.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/MongoDB.Driver.2.10.0/lib/net452/MongoDB.Driver.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/MongoDB.Driver.2.10.0/lib/netstandard1.5/MongoDB.Driver.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/MongoDB.Driver.2.10.0/lib/netstandard1.5/MongoDB.Driver.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/MongoDB.Driver.Core.2.10.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/MongoDB.Driver.Core.2.10.0/License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/MongoDB.Driver.Core.2.10.0/MongoDB.Driver.Core.2.10.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/MongoDB.Driver.Core.2.10.0/lib/net452/MongoDB.Driver.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/MongoDB.Driver.Core.2.10.0/lib/net452/MongoDB.Driver.Core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/MongoDB.Driver.Core.2.10.0/lib/netstandard1.5/MongoDB.Driver.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/MongoDB.Driver.Core.2.10.0/lib/netstandard1.5/MongoDB.Driver.Core.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,17 +58,25 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Stories/App.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Stories/SlowkaModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Stories/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Stories/TestAddingToBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Stories/ImageTo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Stories/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Stories/MongoCrud.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Stories/ImageViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Stories/LoadImage.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Stories/MongoCrud.cs" />
-        <option value="$PROJECT_DIR$/Stories/MainWindow.xaml.cs" />
+        <option value="$PROJECT_DIR$/Stories/ImageTo.cs" />
+        <option value="$PROJECT_DIR$/Stories/SlowkaModel.cs" />
         <option value="$PROJECT_DIR$/Stories/ImageViewModel.cs" />
+        <option value="$PROJECT_DIR$/Stories/LoadImage.cs" />
+        <option value="$PROJECT_DIR$/Stories/TestAddingToBase.cs" />
+        <option value="$PROJECT_DIR$/Stories/MainWindow.xaml" />
+        <option value="$PROJECT_DIR$/Stories/MainWindow.xaml.cs" />
       </list>
     </option>
   </component>
@@ -53,6 +91,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
     <configuration name="Stories" type="DotNetProject" factoryName=".NET Project">
@@ -99,8 +138,16 @@
       <workItem from="1582320389082" duration="407000" />
       <workItem from="1584100162516" duration="145000" />
       <workItem from="1584101171146" duration="1084000" />
-      <workItem from="1584102292627" duration="272000" />
+      <workItem from="1584102292627" duration="5656000" />
     </task>
+    <task id="LOCAL-00001" summary="Test po czasie">
+      <created>1584102567181</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584102567181</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,25 +173,45 @@
     <option name="LAST_COMMIT_MESSAGE" value="Test po czasie" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1584102255845">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1584108472566">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-109.1920.1040/1920.-109.1920.1040@1920.-109.1920.1040" timestamp="1582320796710" />
     <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584102255845" />
-    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1584102255844">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584108472566" />
+    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1584108472566">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-109.1920.1040/1920.-109.1920.1040@1920.-109.1920.1040" timestamp="1582320796710" />
     <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584102255844" />
-    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1584102255844">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584108472566" />
+    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1584108472566">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-109.1920.1040/1920.-109.1920.1040@1920.-109.1920.1040" timestamp="1582320796710" />
     <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584102255844" />
-    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1584102255845">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584108472566" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1584108472566">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-109.1920.1040/1920.-109.1920.1040@1920.-109.1920.1040" timestamp="1582320796710" />
     <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584102255845" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584108472566" />
+    <state x="2381" y="162" key="SettingsEditor" timestamp="1584108008316">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2381" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584108008316" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1584106433274">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584106433274" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584102898673">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584102898673" />
+    <state x="704" y="311" key="git4idea.merge.GitPullDialog" timestamp="1584102874230">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="704" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584102874230" />
   </component>
 </project>

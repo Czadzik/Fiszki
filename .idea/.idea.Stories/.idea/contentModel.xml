@@ -12,7 +12,8 @@
         <e p="App.xaml" t="Include" />
         <e p="App.xaml.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="ImageViewModel.cs" t="Include" />
+        <e p="ImageTo.cs" t="Include" />
+        <e p="LoadImage.cs" t="Include" />
         <e p="MainWindow.xaml" t="Include" />
         <e p="MainWindow.xaml.cs" t="Include" />
         <e p="MongoCrud.cs" t="Include" />
@@ -33,6 +34,7 @@
         </e>
         <e p="SlowkaModel.cs" t="Include" />
         <e p="Stories.csproj" t="IncludeRecursive" />
+        <e p="TestAddingToBase.cs" t="Include" />
       </e>
       <e p="Stories.sln" t="IncludeFlat" />
     </e>
