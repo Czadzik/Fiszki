@@ -26,20 +26,20 @@ namespace Stories
     {
         public MainWindow()
         {
-
+            InitializeComponent();
             string testAngName = "dwo";
             string testPolName = "dwa";
             string inneZnacz = "drugi";
-            Image obraz = Image.FromFile(@"C:\Users\Czadzik\Desktop\aaaaa.png");
+            Image obraz = Image.FromFile(@"C:\Users\Czadzik\Desktop\fff.png");
             byte[] binaryContent = imageToByteArray(obraz);
 
 
-             InitializeComponent();
+           
              DataContext=new ImageViewModel();
              
             MongoCrud db = new MongoCrud("MangoStories");
-           // db.InsertRecord("Slowka", new SlowkaModel {id=2 ,AngName = testAngName, PolName = testPolName, OtherAngMeaning = inneZnacz, obraz = binaryContent });
-            var a = db.LoadRecords<SlowkaModel>("Slowka");
+         //  db.InsertRecord("words", new SlowkaModel {id=2 ,AngName = testAngName, PolName = testPolName, OtherAngMeaning = inneZnacz, obraz = binaryContent });
+            var a = db.LoadRecords<SlowkaModel>("words");
             MessageBox.Show(a.Select(x=>x).Count().ToString());
 
 
@@ -54,22 +54,10 @@ namespace Stories
         }
 
 
-        private DependencyObject GetNextSibling()
-        {
-            var n = BlueTeam.Items.Count;
-            var foundSibling = false;
-            for (int i = 0; i < n; i++)
-            {
-                var child = BlueTeam.ItemContainerGenerator.ContainerFromIndex(i);
-              
-                    return child;
-              
-            }
-            return null;
-        }
+       
         private void Zmien_W_Przód_Click(object sender, RoutedEventArgs e)
         {
-            GetNextSibling();
+            //GetNextSibling();
         }
 
 

@@ -24,7 +24,7 @@ namespace Stories
         public ImageViewModel()
         {
             //wczytuję obrazy z Bazy w formie tablicy bitow
-            var a = db.LoadRecords<MainWindow.SlowkaModel>("Slowka");
+            var a = db.LoadRecords<MainWindow.SlowkaModel>("words");
             ByteLoad = new List<byte[]>();
             ImageLoaadImage = new List<Image>();
             //wyviąfam tablice bitów ze zmiennej
@@ -78,15 +78,20 @@ namespace Stories
             }
 
             i = 0;
+            int aktalny = 0;
             foreach (var window in Application.Current.Windows)
             {
                 if (window.GetType() == typeof(MainWindow))
                 {
-                    (window as MainWindow).BlueTeam.ItemsSource= ImageLoad;
+                  //  (window as MainWindow).BlueTeam.ItemsSource= bitmapArry[0];
                 }
             }
         }
 
+        public void GetNextSibling()
+        {
+
+        }
         //zamienia tablice bitow na obrazy
         public Image byteArrayToImage(byte[] byteArrayIn)
         {

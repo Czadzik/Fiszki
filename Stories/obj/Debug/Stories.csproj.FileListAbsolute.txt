@@ -18,7 +18,6 @@ C:\Users\Czadzik\source\repos\Stories\Stories\bin\Debug\MongoDB.Driver.xml
 C:\Users\Czadzik\source\repos\Stories\Stories\bin\Debug\MongoDB.Driver.Core.xml
 C:\Users\Czadzik\source\repos\Stories\Stories\bin\Debug\Snappy.NET.xml
 C:\Users\Czadzik\source\repos\Stories\Stories\bin\Debug\System.Buffers.xml
-C:\Users\Czadzik\source\repos\Stories\Stories\obj\Debug\Stories.csprojAssemblyReference.cache
 C:\Users\Czadzik\source\repos\Stories\Stories\obj\Debug\MainWindow.g.cs
 C:\Users\Czadzik\source\repos\Stories\Stories\obj\Debug\App.g.cs
 C:\Users\Czadzik\source\repos\Stories\Stories\obj\Debug\Stories_Content.g.cs
@@ -31,3 +30,4 @@ C:\Users\Czadzik\source\repos\Stories\Stories\obj\Debug\Stories.csproj.GenerateR
 C:\Users\Czadzik\source\repos\Stories\Stories\obj\Debug\Stories.csproj.CopyComplete
 C:\Users\Czadzik\source\repos\Stories\Stories\obj\Debug\Stories.exe
 C:\Users\Czadzik\source\repos\Stories\Stories\obj\Debug\Stories.pdb
+C:\Users\Czadzik\source\repos\Stories\Stories\obj\Debug\Stories.csprojAssemblyReference.cache
