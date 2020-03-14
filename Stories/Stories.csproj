@@ -93,7 +93,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ChoseImage.cs" />
     <Compile Include="ImageTo.cs" />
+    <Compile Include="ParsDataBaseFormatToProgramForma.cs" />
     <Compile Include="SlowkaModel.cs" />
     <Compile Include="TestAddingToBase.cs" />
     <Page Include="MainWindow.xaml">

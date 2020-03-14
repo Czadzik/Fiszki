@@ -21,15 +21,16 @@ namespace Stories
         public static List<ImageSource> ImageLoad { get; set; }
         static MongoCrud db = new MongoCrud("MangoStories");
 
-     static    public List<ImageSource> LoadImageFromDataBase()
+     static public List<ImaglistModel> LoadImageFromDataBase()
         {
             
             //wczytuję obrazy z Bazy w formie tablicy bitow
-            var a = db.LoadRecords<SlowkaModel>("words");
+            var allList = db.LoadRecords<SlowkaModel>("words");
+           
               ByteLoad = new List<byte[]>();
             ImageLoaadImage = new List<Image>();
             //wyviąfam tablice bitów ze zmiennej
-            foreach (var item in a)
+            foreach (var item in allList)
             {
                 ByteLoad.Add(item.obraz);
             }
@@ -41,7 +42,7 @@ namespace Stories
             }
 
             int i = 0;
-            BitmapImage[] bitmapArry = new BitmapImage[a.Select(x => x).Count()];
+            BitmapImage[] bitmapArry = new BitmapImage[allList.Select(x => x).Count()];
 
          
 
@@ -77,10 +78,15 @@ namespace Stories
                 ImageLoad.Add(bitmapArry[i]);
                 i++;
             }
+         List< ImaglistModel> ReadyList=  ParsDataBaseFormatToProgramForma.ParseAllList(allList);
+          ReadyList= ParsDataBaseFormatToProgramForma.ParseImage(ImageLoad, ReadyList);
+           
 
-            return ImageLoad;
+
+            return ReadyList;
             // i = 0;
             // int aktalny = 0;
+            // foreach (var window in Application.Current.Windows)
             // foreach (var window in Application.Current.Windows)
             // {
             //     if (window.GetType() == typeof(MainWindow))

@@ -24,15 +24,19 @@ namespace Stories
     /// </summary>
     public partial class MainWindow : Window
     {
+        public int current_id;
+        public string current_tag;
+        List<ImaglistModel> ImageLoaded=new List<ImaglistModel>();
         public MainWindow()
         {
+            
             InitializeComponent();
-          TestAddingToBase.Test();
+         // TestAddingToBase.Test();
 
-          List<ImageSource> ImageLoaded=new List<ImageSource>();
+     
           ImageLoaded = LoadImage.LoadImageFromDataBase();
-          ShowImageXML.Source = ImageLoaded.First();
-
+         
+         
         }
        
 
@@ -40,7 +44,12 @@ namespace Stories
        
         private void Zmien_W_Przód_Click(object sender, RoutedEventArgs e)
         {
-            //GetNextSibling();
+            current_id = Int32.Parse(id.Text);
+            current_tag = tag.Text;
+            EngWordTB.Text = ChoseImage.SelectedWordInEng(ImageLoaded, current_tag, current_id);
+            PolWordTB.Text = ChoseImage.SelectedWordInPol(ImageLoaded, current_tag, current_id);
+
+            ShowImageXML.Source = ChoseImage.SelectedImage(ImageLoaded, current_tag, current_id);
         }
 
 
