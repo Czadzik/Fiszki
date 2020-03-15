@@ -64,3 +64,5 @@ C:\Users\Czadzik\source\repos\Stories\Stories\Stories\obj\Debug\Stories.csproj.G
 C:\Users\Czadzik\source\repos\Stories\Stories\Stories\obj\Debug\Stories.csproj.CopyComplete
 C:\Users\Czadzik\source\repos\Stories\Stories\Stories\obj\Debug\Stories.exe
 C:\Users\Czadzik\source\repos\Stories\Stories\Stories\obj\Debug\Stories.pdb
+C:\Users\Czadzik\source\repos\Stories\Stories\Stories\obj\Debug\NewWindowToAdd.g.cs
+C:\Users\Czadzik\source\repos\Stories\Stories\Stories\obj\Debug\NewWindowToAdd.baml

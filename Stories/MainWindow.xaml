@@ -11,18 +11,25 @@
             <ColumnDefinition Width="1*" />
             <ColumnDefinition Width="1*" />
             <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*" />
             <RowDefinition Height="1*" />
             <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
         </Grid.RowDefinitions>
-      <Image  Grid.Column="1" Grid.Row="1" x:Name="ShowImageXML"></Image>
-        <TextBlock Background="Brown" x:Name="EngWordTB" Grid.Column="1" Grid.Row="3"></TextBlock>
-        <TextBlock Background="Aqua" x:Name="PolWordTB" Grid.Column="2" Grid.Row="3"></TextBlock>
+      <Image  Grid.Column="1" Grid.Row="1" x:Name="ShowImageXML" Grid.ColumnSpan="3" Grid.RowSpan="3" Source="Brak.jpg"></Image>
+        <TextBlock Background="Brown" x:Name="EngWordTB" Grid.Column="2" Grid.Row="4"></TextBlock>
+        <TextBlock Background="Aqua" x:Name="PolWordTB" Grid.Column="3" Grid.Row="4"></TextBlock>
         <TextBox x:Name="id" Text="id" Grid.Row="0" Grid.Column="0"></TextBox>
-        <TextBox x:Name="tag"  Text="tag" Grid.Row="0" Grid.Column="1"></TextBox>
+        <ComboBox x:Name="tag" Margin="40,20,40,100" ItemsSource="{Binding TagColecton}" Grid.Row="0" Grid.Column="1"></ComboBox>
         
-        <Button Content="Załaduj" Grid.Column="2" Click="Zmien_W_Przód_Click"></Button>
+        <Button Content="Załaduj" Grid.Column="2" Click="Załaduj_Click"></Button>
+        <Button Content="Następny" Grid.Column="4" Click="Zmien_W_Przód_Click"></Button>
+        <Button Content="Zaladuj Nowy" Grid.Row="1" Grid.Column="4" Click="Nowy_Click"></Button>
+        <Button Content="Poprzedni" Grid.Column="3" Click="Zmien_W_Tyl_Click"></Button>
     </Grid>
 </Window>

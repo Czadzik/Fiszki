@@ -84,16 +84,7 @@ namespace Stories
 
 
             return ReadyList;
-            // i = 0;
-            // int aktalny = 0;
-            // foreach (var window in Application.Current.Windows)
-            // foreach (var window in Application.Current.Windows)
-            // {
-            //     if (window.GetType() == typeof(MainWindow))
-            //     {
-            //       //  (window as MainWindow).BlueTeam.ItemsSource= bitmapArry[0];
-            //     }
-            // }
+       
         }
 
        

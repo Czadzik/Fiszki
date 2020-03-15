@@ -15,6 +15,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Drawing;
 using System.IO;
+using System.Drawing;
 using Image = System.Drawing.Image;
 
 
@@ -22,14 +23,14 @@ namespace Stories
 {
     public static class TestAddingToBase
     {
-        public static void Test()
+        public static void Test(string _ang,string _pol,string _inne,string _tag,Image _img)
         {
-            string testAngName = "fox";
-            string testPolName = "lis";
-            string inneZnacz = "drugi";
-            string tag = "test";
+            string testAngName = _ang;
+            string testPolName = _pol;
+            string inneZnacz = _inne;
+            string tag = _tag;
 
-             Image obraz = Image.FromFile(@"C:\Users\Czadzik\Desktop\cd3ae3619f3725bc0b45ef4edd4e7ef6f8dcbcae.jpg");
+            Image obraz = _img;
             //   ImageTo newImage=new ImageTo();
             byte[] binaryContent =ImageTo.imageToByteArray(obraz);
 
@@ -38,7 +39,10 @@ namespace Stories
             //LoadImage DataContext=new LoadImage();
          
             MongoCrud db = new MongoCrud("MangoStories");
-           db.InsertRecord("words", new SlowkaModel {id=1 ,AngName = testAngName, PolName = testPolName, OtherAngMeaning = inneZnacz, obraz = binaryContent,tag = tag});
+            var loadList=db.LoadRecords<SlowkaModel>("words");
+            int idCount = loadList.Where(x => x.tag == _tag).Select(c => c.idTag).Count();
+            idCount++;
+           db.InsertRecord("words", new SlowkaModel {idTag=idCount ,AngName = testAngName, PolName = testPolName, OtherAngMeaning = inneZnacz, obraz = binaryContent,tag = tag});
             var LoadedImageFromDb = db.LoadRecords<SlowkaModel>("words");
             MessageBox.Show(LoadedImageFromDb.Select(x=>x).Count().ToString());
         }

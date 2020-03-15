@@ -11,18 +11,18 @@ namespace Stories
         public  static string EngWord;
         public static ImageSource SelectedImage(List<ImaglistModel> pictureList, string _tag,int _id)
         {
-            return ImageSource = pictureList.Where(x => x.id == _id).Where(v=>v.tag==_tag).Select(c => c.obraz).First();
+            return ImageSource = pictureList.Where(x => x.idTag == _id).Where(v=>v.tag==_tag).Select(c => c.obraz).First();
              
 
         }
-
+        //TODO Zrobić ladowanie po id i tagu bez bledu
         public static string SelectedWordInPol(List<ImaglistModel> pictureList, string _tag, int _id)
         {
-           return PolWord= pictureList.Where(x => x.id == _id).Where(v=>v.tag==_tag).Select(c => c.PolName).First();
+           return PolWord= pictureList.Where(x => x.idTag == _id).Where(v=>v.tag==_tag).Select(c => c.PolName).First();
         }
         public static string SelectedWordInEng(List<ImaglistModel> pictureList, string _tag, int _id)
         {
-           return EngWord= pictureList.Where(x => x.id == _id).Where(v=>v.tag==_tag).Select(c => c.AngName).First();
+           return EngWord= pictureList.Where(x => x.idTag == _id).Where(v=>v.tag==_tag).Select(c => c.AngName).First();
         } 
     }
 }

@@ -12,16 +12,20 @@
         <e p="App.xaml" t="Include" />
         <e p="App.xaml.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Brak.jpg" t="Include" />
         <e p="ChoseImage.cs" t="Include" />
         <e p="ImageTo.cs" t="Include" />
         <e p="LoadImage.cs" t="Include" />
         <e p="MainWindow.xaml" t="Include" />
         <e p="MainWindow.xaml.cs" t="Include" />
         <e p="MongoCrud.cs" t="Include" />
+        <e p="NewWindowToAdd.xaml" t="Include" />
+        <e p="NewWindowToAdd.xaml.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="App.g.cs" t="Include" />
             <e p="MainWindow.g.cs" t="Include" />
+            <e p="NewWindowToAdd.g.cs" t="Include" />
             <e p="Stories_Content.g.cs" t="Include" />
           </e>
         </e>

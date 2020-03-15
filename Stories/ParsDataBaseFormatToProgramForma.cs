@@ -7,11 +7,6 @@ namespace Stories
     {
         public static List<ImaglistModel> ParseImage(List<ImageSource> ImageFromDatabase,List<ImaglistModel> List)
         {
-            
-
-
-
-
             int i = 0;
             foreach (var item in ImageFromDatabase)
             {
@@ -34,7 +29,7 @@ namespace Stories
             List<ImaglistModel> ReadyList = new List<ImaglistModel>();
             foreach (var item in BaseList)
             {
-                id = item.id;
+                id = item.idTag;
                 ang = item.AngName;
                 pol = item.PolName;
                 tag = item.tag;
