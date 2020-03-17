@@ -24,7 +24,10 @@ namespace Stories
     /// </summary>
     public partial class MainWindow
     {
-        public int current_id;
+        private string[] LoadedArryPolWord;
+        private string[] LoadedArryEngWord;
+        private ImageSource[] LoadedArryImgWord;
+        public int current_id=0;
         public string current_tag;
         List<ImaglistModel> ImageLoaded = new List<ImaglistModel>();
         MongoCrud db = new MongoCrud("MangoStories");
@@ -46,38 +49,46 @@ namespace Stories
 
         private void Załaduj_Click(object sender, RoutedEventArgs e)
         {
-            //current_id = Int32.Parse(id.Text);
+            current_id = 0;
             current_tag = tag.Text;
-            EngWordTB.Text = ChoseImage.SelectedWordInEng(ImageLoaded, current_tag, current_id);
-            PolWordTB.Text = ChoseImage.SelectedWordInPol(ImageLoaded, current_tag, current_id);
+            //current_id = Int32.Parse(id.Text);
+            LoadedArryPolWord = ChoseImage.BackPolWordlArry(ImageLoaded, current_tag);
+            LoadedArryImgWord = ChoseImage.SelectedImage(ImageLoaded, current_tag, current_id);
+            LoadedArryEngWord = ChoseImage.SelectedWordInEng(ImageLoaded, current_tag, current_id);
+            PolWordTB.Text = LoadedArryPolWord[current_id];
 
-            ShowImageXML.Source = ChoseImage.SelectedImage(ImageLoaded, current_tag, current_id);
+            EngWordTB.Text=LoadedArryEngWord[current_id];
+               
+          
+            ShowImageXML.Source=LoadedArryImgWord[current_id];
+          
+          
         }
         private void Zmien_W_Przód_Click(object sender, RoutedEventArgs e)
         {
-            var ListDatabesObject = db.LoadRecords<SlowkaModel>("words");
-            if (ListDatabesObject.Count > current_id)
+            var ListDatabesObject = db.LoadRecords<SlowkaModel>("words").Where(x=>x.tag==current_tag).Count();
+            if ((ListDatabesObject -1)> current_id)
             {
                 current_id++;
             }
-            EngWordTB.Text = ChoseImage.SelectedWordInEng(ImageLoaded, current_tag, current_id);
-            PolWordTB.Text = ChoseImage.SelectedWordInPol(ImageLoaded, current_tag, current_id);
+            EngWordTB.Text = LoadedArryEngWord[current_id];
+            PolWordTB.Text = LoadedArryPolWord[current_id];
 
-            ShowImageXML.Source = ChoseImage.SelectedImage(ImageLoaded, current_tag, current_id);
+            ShowImageXML.Source = LoadedArryImgWord[current_id];
 
         }
 
         private void Zmien_W_Tyl_Click(object sender, RoutedEventArgs e)
         {
-            var ListDatabesObject = db.LoadRecords<SlowkaModel>("words");
-            if (current_id > 1)
+            var ListDatabesObject = db.LoadRecords<SlowkaModel>("words").Where(x=>x.tag==current_tag).Count();
+            if ( current_id>0)
             {
                 current_id--;
             }
-            EngWordTB.Text = ChoseImage.SelectedWordInEng(ImageLoaded, current_tag, current_id);
-            PolWordTB.Text = ChoseImage.SelectedWordInPol(ImageLoaded, current_tag, current_id);
+            EngWordTB.Text = LoadedArryEngWord[current_id];
+            PolWordTB.Text = LoadedArryPolWord[current_id];
 
-            ShowImageXML.Source = ChoseImage.SelectedImage(ImageLoaded, current_tag, current_id);
+            ShowImageXML.Source = LoadedArryImgWord[current_id];
 
         }
 

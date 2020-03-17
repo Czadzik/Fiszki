@@ -1,41 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8563f537-776b-4628-9588-1d447c5b8a0b" name="Default Changelist" comment="Wszytko dziala na podstawowym poziome mozna podac tag i id z bazy i wczyta dane">
-      <change afterPath="$PROJECT_DIR$/Stories/Brak.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stories/NewWindowToAdd.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stories/NewWindowToAdd.xaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stories/bin/Debug/Brak.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stories/obj/Debug/New.g.i.cs" afterDir="false" />
+    <list default="true" id="8563f537-776b-4628-9588-1d447c5b8a0b" name="Default Changelist" comment="Dodane dodawanie nowego slowa do bazy i ulepszone gui ladowania slow// ladowanie slow jest jeszcze do poprawy">
+      <change afterPath="$PROJECT_DIR$/Stories/obj/Debug/MainWindow.baml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Stories/obj/Debug/NewWindowToAdd.baml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stories/obj/Debug/NewWindowToAdd.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stories/obj/Debug/NewWindowToAdd.g.i.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stories/obj/Debug/Stories_MarkupCompile.i.lref" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Stories/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stories/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stories/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stories/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Stories/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Stories/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Stories/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Stories/v16/Server/sqlite3/storage.ide" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stories/LoadImage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/LoadImage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/ChoseImage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/ChoseImage.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/MainWindow.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/MainWindow.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stories/ParsDataBaseFormatToProgramForma.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/ParsDataBaseFormatToProgramForma.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stories/SlowkaModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/SlowkaModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stories/Stories.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/Stories.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stories/TestAddingToBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/TestAddingToBase.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/bin/Debug/Stories.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/bin/Debug/Stories.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/bin/Debug/Stories.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/bin/Debug/Stories.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/MainWindow.baml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/MainWindow.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/MainWindow.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/Stories.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/Stories.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/Stories.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/Stories.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/Stories.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/Stories.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/Stories.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/Stories.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/Stories.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/Stories.g.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/Stories.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/Stories.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/Stories_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/Stories_MarkupCompile.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/Stories_MarkupCompile.i.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/Stories_MarkupCompile.i.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/Stories_MarkupCompile.lref" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/Stories_MarkupCompile.lref" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,15 +48,15 @@
         <option value="$PROJECT_DIR$/Stories/MongoCrud.cs" />
         <option value="$PROJECT_DIR$/Stories/ImageTo.cs" />
         <option value="$PROJECT_DIR$/Stories/ImageViewModel.cs" />
-        <option value="$PROJECT_DIR$/Stories/ChoseImage.cs" />
         <option value="$PROJECT_DIR$/Stories/ParsDataBaseFormatToProgramForma.cs" />
         <option value="$PROJECT_DIR$/Stories/LoadImage.cs" />
-        <option value="$PROJECT_DIR$/Stories/MainWindow.xaml" />
         <option value="$PROJECT_DIR$/Stories/SlowkaModel.cs" />
-        <option value="$PROJECT_DIR$/Stories/MainWindow.xaml.cs" />
         <option value="$PROJECT_DIR$/Stories/NewWindowToAdd.xaml" />
         <option value="$PROJECT_DIR$/Stories/TestAddingToBase.cs" />
         <option value="$PROJECT_DIR$/Stories/NewWindowToAdd.xaml.cs" />
+        <option value="$PROJECT_DIR$/Stories/MainWindow.xaml" />
+        <option value="$PROJECT_DIR$/Stories/ChoseImage.cs" />
+        <option value="$PROJECT_DIR$/Stories/MainWindow.xaml.cs" />
       </list>
     </option>
   </component>
@@ -147,6 +129,9 @@
       <workItem from="1584279285328" duration="2430000" />
       <workItem from="1584288875327" duration="272000" />
       <workItem from="1584289199206" duration="2308000" />
+      <workItem from="1584292713093" duration="76000" />
+      <workItem from="1584314747282" duration="70000" />
+      <workItem from="1584467717495" duration="4584000" />
     </task>
     <task id="LOCAL-00001" summary="Test po czasie">
       <created>1584102567181</created>
@@ -162,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584205118795</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dodane dodawanie nowego slowa do bazy i ulepszone gui ladowania slow// ladowanie slow jest jeszcze do poprawy">
+      <created>1584292768959</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584292768959</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,32 +179,33 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Test po czasie" />
     <MESSAGE value="Wszytko dziala na podstawowym poziome mozna podac tag i id z bazy i wczyta dane" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wszytko dziala na podstawowym poziome mozna podac tag i id z bazy i wczyta dane" />
+    <MESSAGE value="Dodane dodawanie nowego slowa do bazy i ulepszone gui ladowania slow// ladowanie slow jest jeszcze do poprawy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodane dodawanie nowego slowa do bazy i ulepszone gui ladowania slow// ladowanie slow jest jeszcze do poprawy" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1584291507874">
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1584473418652">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-109.1920.1040/1920.-109.1920.1040@1920.-109.1920.1040" timestamp="1582320796710" />
-    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584291507874" />
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584473418652" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584205059894" />
-    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1584291507874">
+    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1584473418652">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-109.1920.1040/1920.-109.1920.1040@1920.-109.1920.1040" timestamp="1582320796710" />
-    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584291507874" />
+    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584473418652" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584205059894" />
-    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1584291507873">
+    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1584473418652">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-109.1920.1040/1920.-109.1920.1040@1920.-109.1920.1040" timestamp="1582320796710" />
-    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584291507873" />
+    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584473418652" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584205059893" />
-    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1584291507874">
+    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1584473418652">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-109.1920.1040/1920.-109.1920.1040@1920.-109.1920.1040" timestamp="1582320796710" />
-    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584291507874" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584473418652" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584205059894" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584206450963">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -290,15 +283,19 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2741" y="232" key="VCS.ChangeListViewerDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584203050792" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584205127905">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584292777095">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584102898673" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584292777095" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584205127905" />
     <state x="704" y="311" key="git4idea.merge.GitPullDialog" timestamp="1584102874230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="704" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584102874230" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1584469475008">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584469475008" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584202535918">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
