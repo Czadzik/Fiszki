@@ -23,18 +23,18 @@ namespace Stories
             
             public int idTag { get; set; }
             public string AngName { get; set; }
-            public string OtherAngMeaning { get; set; }
+            public string OtherPolMeaning { get; set; }
             public string PolName { get; set; }
             public ImageSource obraz { get; set; }
             public string tag { get; set; }
-        public ImaglistModel(int _id,string _ang,string _pol,ImageSource _img,string _tag,string _OtherAngMeaning)
+        public ImaglistModel(int _id,string _ang,string _pol,ImageSource _img,string _tag,string otherPolMeaning)
         {
             idTag = _id;
             AngName = _ang;
             PolName = _pol;
             obraz = _img;
             tag = _tag;
-            OtherAngMeaning = _OtherAngMeaning;
+            OtherPolMeaning = otherPolMeaning;
         }
         
         }

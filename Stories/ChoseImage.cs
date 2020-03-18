@@ -7,6 +7,7 @@ namespace Stories
     public static class ChoseImage
     {
         private static string [] PolWordlArry;
+        private static string [] PolWordlArry2;
         private static string [] EngWordlArry;
         private static ImageSource [] ImgWordlArry;
         public static string [] BackPolWordlArry(List<ImaglistModel> pictureList ,string _tag )
@@ -22,7 +23,19 @@ namespace Stories
 
             return PolWordlArry;
         }
+        public static string [] BackPol2WordlArry(List<ImaglistModel> pictureList ,string _tag )
+        {
+            var PolWords2= pictureList.Where(v=>v.tag==_tag).Select(c => c.OtherPolMeaning);
+            PolWordlArry2=new string[PolWords2.Count()];
+            int i = 0;
+            foreach (var item in PolWords2)
+            {
+                PolWordlArry2[i]= item;
+                i++;
+            }
 
+            return PolWordlArry2;
+        }
  
         public static ImageSource[] SelectedImage(List<ImaglistModel> pictureList, string _tag,int _id)
         {

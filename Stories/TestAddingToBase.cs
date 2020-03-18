@@ -25,10 +25,10 @@ namespace Stories
     {
         public static void Test(string _ang,string _pol,string _inne,string _tag,Image _img)
         {
-            string testAngName = _ang;
-            string testPolName = _pol;
-            string inneZnacz = _inne;
-            string tag = _tag;
+            string testAngName = _ang.ToLower();
+            string testPolName = _pol.ToLower();
+            string inneZnacz = _inne.ToLower();
+            string tag = _tag.ToLower();
 
             Image obraz = _img;
             //   ImageTo newImage=new ImageTo();

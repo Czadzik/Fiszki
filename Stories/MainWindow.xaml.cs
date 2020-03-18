@@ -15,6 +15,8 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Drawing;
 using System.IO;
+using Brushes = System.Windows.Media.Brushes;
+using Color = System.Drawing.Color;
 using Image = System.Drawing.Image;
 
 namespace Stories
@@ -26,6 +28,7 @@ namespace Stories
     {
         private string[] LoadedArryPolWord;
         private string[] LoadedArryEngWord;
+        private string[] LoadedArryPol2Word;
         private ImageSource[] LoadedArryImgWord;
         public int current_id=0;
         public string current_tag;
@@ -49,14 +52,13 @@ namespace Stories
 
         private void Załaduj_Click(object sender, RoutedEventArgs e)
         {
-            current_id = 0;
-            current_tag = tag.Text;
+                 current_tag = tag.Text;
             //current_id = Int32.Parse(id.Text);
             LoadedArryPolWord = ChoseImage.BackPolWordlArry(ImageLoaded, current_tag);
             LoadedArryImgWord = ChoseImage.SelectedImage(ImageLoaded, current_tag, current_id);
             LoadedArryEngWord = ChoseImage.SelectedWordInEng(ImageLoaded, current_tag, current_id);
-            PolWordTB.Text = LoadedArryPolWord[current_id];
-
+           // PolWordTB.Text = LoadedArryPolWord[current_id];
+           LoadedArryPol2Word=ChoseImage.BackPol2WordlArry(ImageLoaded, current_tag);
             EngWordTB.Text=LoadedArryEngWord[current_id];
                
           
@@ -72,7 +74,7 @@ namespace Stories
                 current_id++;
             }
             EngWordTB.Text = LoadedArryEngWord[current_id];
-            PolWordTB.Text = LoadedArryPolWord[current_id];
+         //   PolWordTB.Text = LoadedArryPolWord[current_id];
 
             ShowImageXML.Source = LoadedArryImgWord[current_id];
 
@@ -80,13 +82,13 @@ namespace Stories
 
         private void Zmien_W_Tyl_Click(object sender, RoutedEventArgs e)
         {
-            var ListDatabesObject = db.LoadRecords<SlowkaModel>("words").Where(x=>x.tag==current_tag).Count();
+           
             if ( current_id>0)
             {
                 current_id--;
             }
             EngWordTB.Text = LoadedArryEngWord[current_id];
-            PolWordTB.Text = LoadedArryPolWord[current_id];
+           // PolWordTB.Text = LoadedArryPolWord[current_id];
 
             ShowImageXML.Source = LoadedArryImgWord[current_id];
 
@@ -96,6 +98,34 @@ namespace Stories
         {
             NewWindowToAdd window = new NewWindowToAdd();
             window.Show();
+        }
+
+        private void Chceck_Click(object sender, RoutedEventArgs e)
+        {
+            if (PolWordTB.Text.ToLower()==LoadedArryPolWord[current_id]|| PolWordTB.Text.ToLower() == LoadedArryPol2Word[current_id])
+            {
+                correct1.Text = "Poprawnie";
+                correct1.Background = Brushes.Chartreuse;
+            }
+            else
+            {
+                correct1.Text = "Źle";
+                correct1.Background = Brushes.Red;
+            }
+
+            if (PolWordTB.Text.ToLower()==LoadedArryPolWord[current_id])
+            {
+                correct2.Text = LoadedArryPol2Word[current_id];
+            }
+            if ( PolWordTB.Text.ToLower() == LoadedArryPol2Word[current_id])
+            { 
+                correct2.Text = LoadedArryPolWord[current_id];
+                
+            }
+         
+           
+            
+          
         }
     }
 }

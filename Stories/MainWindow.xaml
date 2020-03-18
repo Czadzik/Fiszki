@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Stories"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="Bisque">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
             <ColumnDefinition Width="1*" />
@@ -22,8 +22,15 @@
             <RowDefinition Height="1*" />
         </Grid.RowDefinitions>
       <Image  Grid.Column="1" Grid.Row="1" x:Name="ShowImageXML" Grid.ColumnSpan="3" Grid.RowSpan="3" Source="Brak.jpg"></Image>
-        <TextBlock Background="Brown" x:Name="EngWordTB" Grid.Column="2" Grid.Row="4"></TextBlock>
-        <TextBlock Background="Aqua" x:Name="PolWordTB" Grid.Column="3" Grid.Row="4"></TextBlock>
+
+        <TextBlock Background="Brown" x:Name="EngWordTB" Grid.Column="1" Grid.Row="4" ></TextBlock>
+
+        <StackPanel Grid.Column="3" Grid.Row="4">
+        <TextBox Background="Gray" x:Name="correct1" ></TextBox>
+        <TextBox Background="Gray" x:Name="correct2" ></TextBox>
+            <Button Content="Check" Click="Chceck_Click"></Button>
+        </StackPanel>
+        <TextBox Background="Aqua" x:Name="PolWordTB" Grid.Column="2" Grid.Row="4"></TextBox>
         
         <ComboBox x:Name="tag" Margin="40,20,40,45" ItemsSource="{Binding TagColecton}" Grid.Row="0" Grid.Column="1"></ComboBox>
         
