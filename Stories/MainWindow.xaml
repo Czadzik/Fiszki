@@ -12,7 +12,7 @@
         Background="{DynamicResource MaterialDesignPaper}"
         >
     
-    <Grid Background="DarkViolet">
+    <Grid Background="#571845">
         
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
@@ -29,21 +29,26 @@
             <RowDefinition Height="1*" />
         </Grid.RowDefinitions>
       <Image  Grid.Column="1" Grid.Row="1" x:Name="ShowImageXML" Grid.ColumnSpan="3" Grid.RowSpan="3" Source="Brak.jpg"></Image>
-
+<StackPanel Grid.Row="0" Grid.Column="0" Grid.RowSpan="5" Background="#900c3e">
+    <ComboBox x:Name="tag" Margin="40,20,40,45" ItemsSource="{Binding TagColecton}" ></ComboBox>
+    <TextBlock></TextBlock>
+</StackPanel>
         <TextBlock Background="Brown" x:Name="EngWordTB" Grid.Column="1" Grid.Row="4" ></TextBlock>
-
+   
         <StackPanel Grid.Column="3" Grid.Row="4">
         <TextBox Background="Gray" x:Name="correct1" ></TextBox>
         <TextBox Background="Gray" x:Name="correct2" ></TextBox>
             <Button Content="Check" Click="Chceck_Click"></Button>
         </StackPanel>
         <TextBox Background="Aqua" x:Name="PolWordTB" Grid.Column="2" Grid.Row="4"></TextBox>
+
+        <DockPanel Background="#ff5733" Grid.Column="1" Grid.ColumnSpan="4">
+            <Button Content="Załaduj" Margin="20,20,20,20" Style="{StaticResource MaterialDesignRaisedLightButton}"   Click="Załaduj_Click" ></Button>
+            <Button Content="Następny" Margin="20,20,20,20" Style="{StaticResource MaterialDesignRaisedLightButton}" Click="Zmien_W_Przód_Click"></Button>
+            <Button Content="Zaladuj Nowy" Margin="20,20,20,20"  Style="{StaticResource MaterialDesignRaisedLightButton}" Click="Nowy_Click"></Button>
+            <Button Content="Poprzedni"  Margin="20,20,20,20" Style="{StaticResource MaterialDesignRaisedLightButton}" Click="Zmien_W_Tyl_Click"></Button>
+        </DockPanel>
         
-        <ComboBox x:Name="tag" Margin="40,20,40,45" ItemsSource="{Binding TagColecton}" Grid.Row="0" Grid.Column="1"></ComboBox>
         
-        <Button Content="Załaduj" Style="{StaticResource MaterialDesignRaisedButton}" Grid.Column="2" Click="Załaduj_Click"></Button>
-        <Button Content="Następny" Grid.Column="4" Click="Zmien_W_Przód_Click"></Button>
-        <Button Content="Zaladuj Nowy" Grid.Row="1" Grid.Column="4" Click="Nowy_Click"></Button>
-        <Button Content="Poprzedni" Grid.Column="3" Click="Zmien_W_Tyl_Click"></Button>
     </Grid>
 </Window>
