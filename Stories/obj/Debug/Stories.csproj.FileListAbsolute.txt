@@ -66,3 +66,9 @@ C:\Users\Czadzik\source\repos\Stories\Stories\Stories\obj\Debug\Stories.exe
 C:\Users\Czadzik\source\repos\Stories\Stories\Stories\obj\Debug\Stories.pdb
 C:\Users\Czadzik\source\repos\Stories\Stories\Stories\obj\Debug\NewWindowToAdd.g.cs
 C:\Users\Czadzik\source\repos\Stories\Stories\Stories\obj\Debug\NewWindowToAdd.baml
+C:\Users\Czadzik\source\repos\Stories\Stories\Stories\bin\Debug\MaterialDesignColors.dll
+C:\Users\Czadzik\source\repos\Stories\Stories\Stories\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Czadzik\source\repos\Stories\Stories\Stories\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Czadzik\source\repos\Stories\Stories\Stories\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Czadzik\source\repos\Stories\Stories\Stories\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Czadzik\source\repos\Stories\Stories\Stories\obj\Debug\App.baml

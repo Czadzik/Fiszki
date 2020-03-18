@@ -1,12 +1,19 @@
-﻿<Window x:Class="Stories.MainWindow"
+﻿
+<Window x:Class="Stories.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Stories"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid Background="Bisque">
+        Title="MainWindow" Height="450" Width="800"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+
+        Background="{DynamicResource MaterialDesignPaper}"
+        >
+    
+    <Grid Background="DarkViolet">
+        
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
             <ColumnDefinition Width="1*" />
@@ -34,7 +41,7 @@
         
         <ComboBox x:Name="tag" Margin="40,20,40,45" ItemsSource="{Binding TagColecton}" Grid.Row="0" Grid.Column="1"></ComboBox>
         
-        <Button Content="Załaduj" Grid.Column="2" Click="Załaduj_Click"></Button>
+        <Button Content="Załaduj" Style="{StaticResource MaterialDesignRaisedButton}" Grid.Column="2" Click="Załaduj_Click"></Button>
         <Button Content="Następny" Grid.Column="4" Click="Zmien_W_Przód_Click"></Button>
         <Button Content="Zaladuj Nowy" Grid.Row="1" Grid.Column="4" Click="Nowy_Click"></Button>
         <Button Content="Poprzedni" Grid.Column="3" Click="Zmien_W_Tyl_Click"></Button>
