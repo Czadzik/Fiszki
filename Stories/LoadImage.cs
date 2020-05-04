@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using Image = System.Drawing.Image;
 
-namespace Stories
+namespace Ficzki
 {
     static class  LoadImage
     {

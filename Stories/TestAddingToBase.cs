@@ -19,7 +19,7 @@ using System.Drawing;
 using Image = System.Drawing.Image;
 
 
-namespace Stories
+namespace Ficzki
 {
     public static class TestAddingToBase
     {

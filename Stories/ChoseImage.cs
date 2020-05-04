@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Windows.Media;
 
-namespace Stories
+namespace Ficzki
 {
     public static class ChoseImage
     {

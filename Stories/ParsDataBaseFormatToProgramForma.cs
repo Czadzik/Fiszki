@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Windows.Media;
 
-namespace Stories
+namespace Ficzki
 {
     public static class ParsDataBaseFormatToProgramForma
     {

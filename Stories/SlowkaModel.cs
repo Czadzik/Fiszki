@@ -4,7 +4,7 @@ using System.Windows.Media;
 using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Driver;
 
-namespace Stories
+namespace Ficzki
 {
     
         public class SlowkaModel

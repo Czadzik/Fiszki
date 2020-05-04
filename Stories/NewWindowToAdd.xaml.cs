@@ -16,7 +16,7 @@ using System.Windows;
 using Microsoft.Win32;
 
 
-namespace Stories
+namespace Ficzki
 {
     /// <summary>
     /// Interaction logic for New.xaml
@@ -65,6 +65,8 @@ namespace Stories
         private void Dodaj_Click(object sender, RoutedEventArgs e)
         {
             TestAddingToBase.Test(angTB.Text,PolskiTB.Text,inneTB.Text,TagTB.Text,img2);
+           
+         
         }
     }
 }

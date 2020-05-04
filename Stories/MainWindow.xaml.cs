@@ -19,7 +19,7 @@ using Brushes = System.Windows.Media.Brushes;
 using Color = System.Drawing.Color;
 using Image = System.Drawing.Image;
 
-namespace Stories
+namespace Ficzki
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -39,11 +39,17 @@ namespace Stories
         {
 
             InitializeComponent();
+             reLoad();
+            
+
+        }
+
+        public void reLoad()
+        {
             var ListDatabesObject = db.LoadRecords<SlowkaModel>("words");
             DataContext = new TagModel(ListDatabesObject);
             // TestAddingToBase.Test();
             ImageLoaded = LoadImage.LoadImageFromDataBase();
-
 
         }
 

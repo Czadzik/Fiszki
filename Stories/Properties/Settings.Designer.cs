@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Stories.Properties
+namespace Ficzki.Properties
 {
 
 

@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8563f537-776b-4628-9588-1d447c5b8a0b" name="Default Changelist" comment="Dodane MaterialDesign">
+    <list default="true" id="8563f537-776b-4628-9588-1d447c5b8a0b" name="Default Changelist" comment="Poprawiony design trochę">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stories/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stories/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stories/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/App.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/NewWindowToAdd.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/NewWindowToAdd.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/NewWindowToAdd.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/NewWindowToAdd.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/bin/Debug/Stories.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/bin/Debug/Stories.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/bin/Debug/Stories.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/bin/Debug/Stories.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/App.baml" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/App.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/App.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/App.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/App.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/MainWindow.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/App.baml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/MainWindow.baml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/MainWindow.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/MainWindow.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/NewWindowToAdd.baml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/NewWindowToAdd.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/NewWindowToAdd.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/NewWindowToAdd.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/NewWindowToAdd.g.i.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/Stories.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/Stories.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/Stories.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/Stories.g.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/Stories.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/Stories.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stories/obj/Debug/Stories_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Stories/obj/Debug/Stories_MarkupCompile.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,19 +62,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Stories/MongoCrud.cs" />
         <option value="$PROJECT_DIR$/Stories/ImageTo.cs" />
         <option value="$PROJECT_DIR$/Stories/ImageViewModel.cs" />
         <option value="$PROJECT_DIR$/Stories/ParsDataBaseFormatToProgramForma.cs" />
         <option value="$PROJECT_DIR$/Stories/LoadImage.cs" />
         <option value="$PROJECT_DIR$/Stories/SlowkaModel.cs" />
-        <option value="$PROJECT_DIR$/Stories/NewWindowToAdd.xaml" />
-        <option value="$PROJECT_DIR$/Stories/NewWindowToAdd.xaml.cs" />
         <option value="$PROJECT_DIR$/Stories/ChoseImage.cs" />
-        <option value="$PROJECT_DIR$/Stories/TestAddingToBase.cs" />
-        <option value="$PROJECT_DIR$/Stories/MainWindow.xaml.cs" />
         <option value="$PROJECT_DIR$/Stories/App.xaml" />
+        <option value="$PROJECT_DIR$/Stories/NewWindowToAdd.xaml" />
+        <option value="$PROJECT_DIR$/Stories/MainWindow.xaml.cs" />
+        <option value="$PROJECT_DIR$/Stories/NewWindowToAdd.xaml.cs" />
         <option value="$PROJECT_DIR$/Stories/MainWindow.xaml" />
+        <option value="$PROJECT_DIR$/Stories/MongoCrud.cs" />
+        <option value="$PROJECT_DIR$/Stories/TestAddingToBase.cs" />
       </list>
     </option>
   </component>
@@ -89,7 +93,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
   </component>
   <component name="RunManager">
     <configuration name="Stories" type="DotNetProject" factoryName=".NET Project">
@@ -153,6 +157,14 @@
       <workItem from="1584567324627" duration="1181000" />
       <workItem from="1584568905929" duration="297000" />
       <workItem from="1584569701069" duration="1757000" />
+      <workItem from="1584571735448" duration="75000" />
+      <workItem from="1584803396229" duration="197000" />
+      <workItem from="1584805782466" duration="3149000" />
+      <workItem from="1584975744576" duration="1241000" />
+      <workItem from="1585400081547" duration="1762000" />
+      <workItem from="1585410563447" duration="78000" />
+      <workItem from="1586796433098" duration="3568000" />
+      <workItem from="1588592638335" duration="542000" />
     </task>
     <task id="LOCAL-00001" summary="Test po czasie">
       <created>1584102567181</created>
@@ -203,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584569160150</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Poprawiony design trochę">
+      <created>1584571789041</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584571789041</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,33 +251,38 @@
     <MESSAGE value="Wyświetlanie obrazów po tagach, w przód i w tył działa dobrze, aktualnie brak znaleźionych błędów" />
     <MESSAGE value="Działa sprawzdzanie wyrazów" />
     <MESSAGE value="Dodane MaterialDesign" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodane MaterialDesign" />
+    <MESSAGE value="Poprawiony design trochę" />
+    <option name="LAST_COMMIT_MESSAGE" value="Poprawiony design trochę" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="307" key="GridCell.Tab.0.bottom" timestamp="1584571459318">
+    <state x="704" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585410216440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="704" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585410216440" />
+    <state width="1877" height="307" key="GridCell.Tab.0.bottom" timestamp="1585410502365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-109.1920.1040/1920.-109.1920.1040@1920.-109.1920.1040" timestamp="1582320796710" />
-    <state width="1877" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584571459318" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584547979274" />
-    <state width="1877" height="307" key="GridCell.Tab.0.center" timestamp="1584571459318">
+    <state width="1877" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585410502365" />
+    <state width="1877" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584979307956" />
+    <state width="1877" height="307" key="GridCell.Tab.0.center" timestamp="1585410502365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-109.1920.1040/1920.-109.1920.1040@1920.-109.1920.1040" timestamp="1582320796710" />
-    <state width="1877" height="307" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584571459318" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584547979274" />
-    <state width="1877" height="307" key="GridCell.Tab.0.left" timestamp="1584571459318">
+    <state width="1877" height="307" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585410502365" />
+    <state width="1877" height="307" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584979307956" />
+    <state width="1877" height="307" key="GridCell.Tab.0.left" timestamp="1585410502365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-109.1920.1040/1920.-109.1920.1040@1920.-109.1920.1040" timestamp="1582320796710" />
-    <state width="1877" height="307" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584571459318" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584547979274" />
-    <state width="1877" height="307" key="GridCell.Tab.0.right" timestamp="1584571459318">
+    <state width="1877" height="307" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585410502365" />
+    <state width="1877" height="307" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584979307956" />
+    <state width="1877" height="307" key="GridCell.Tab.0.right" timestamp="1585410502365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-109.1920.1040/1920.-109.1920.1040@1920.-109.1920.1040" timestamp="1582320796710" />
-    <state width="1877" height="307" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584571459318" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584547979274" />
+    <state width="1877" height="307" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585410502365" />
+    <state width="1877" height="307" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584979307956" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584547979275">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -339,11 +363,11 @@
     </state>
     <state width="1860" height="348" key="GridCell.Tab.4.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584545783333" />
     <state width="1877" height="348" key="GridCell.Tab.4.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584547979276" />
-    <state x="453" y="182" key="SettingsEditor" timestamp="1584545779334">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2381" y="162" key="SettingsEditor" timestamp="1584808524615">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="453" y="182" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584545779334" />
-    <state x="2381" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584108008316" />
+    <state x="2381" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584808524615" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1584106433274">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -352,10 +376,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2741" y="232" key="VCS.ChangeListViewerDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584203050792" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584569178347">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584571797483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584569178347" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584571797483" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584547969243" />
     <state x="704" y="311" key="git4idea.merge.GitPullDialog" timestamp="1584475652276">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -372,23 +396,6 @@
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584202535918" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Stories/MainWindow.xaml.cs</url>
-          <line>57</line>
-          <properties documentPath="$PROJECT_DIR$/Stories/MainWindow.xaml.cs" initialLine="57">
-            <startOffsets>
-              <option value="1696" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1779" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="DotNetProject">
         <watch expression="Enumerable.Where() returned.enumerator" />
